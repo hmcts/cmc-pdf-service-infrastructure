@@ -1,5 +1,5 @@
 module "pdf-service-api" {
-  source = "git@github.com/contino/moj-module-webapp.git?ref=0.0.78"
+  source = "git@github.com:contino/moj-module-webapp.git?ref=0.0.78"
   product = "${var.product}-${var.microservice}"
   location = "${var.location}"
   env = "${var.env}"
